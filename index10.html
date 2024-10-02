@@ -11,7 +11,7 @@
    <section class="section">
     
   <h2>South Africa</h2>
-  <img src="C:\Users\Solicode\Downloads\shutterstock_469114847.jpg" alt="SouthAfrica picture" width="400px">
+  <img src="C:\Users\Solicode\omar\countries to visit\images\shutterstock_469114847.jpg" width="400px">
   <h3>Why Visit:</h3>
   <p> South Africa boasts stunning natural beauty, diverse wildlife, and vibrant cities, making it a top destination for adventure seekers and culture lovers alike.</p>
   <h3>Place to Visit:</h3>
@@ -36,12 +36,12 @@
     </tr>
 </table>
 <br>
-<button onclick="addlike()">LIKE</button>
+<button onclick="addlike1()">LIKE</button>
 <p id="SAlikes">0 LIKES</p>
    </section> 
    <section class="section">
     <h2>Morocco</h2>
-    <img src="C:\Users\Solicode\Downloads\moroccoguide.jpg" alt="morocco picture" width="400px">
+    <img src="C:\Users\Solicode\omar\countries to visit\images\moroccoguide.jpg" alt="morocco picture" width="400px">
     <h3>Why Visit:</h3>
     <p>Morocco offers a rich blend of history, culture, and stunning landscapes, from vibrant cities to serene deserts.</p>
     <h3>Place to Visit:</h3>
@@ -64,10 +64,12 @@
             <td>Mediterranean climate; mild and wet winters, hot and dry summers</td>
         </tr>
     </table>
+    <button onclick="addlike2()">LIKE</button>
+    <p id="MAlikes">0 LIKES</p>
    </section> 
    <section class="section">
     <h2>Kenya</h2>
-    <img src="C:\Users\Solicode\Downloads\istockphoto-697689066-612x612.jpg" alt="kenya picture" width="400px">
+    <img src="C:\Users\Solicode\omar\countries to visit\images\istockphoto-697689066-612x612.jpg" alt="kenya picture" width="400px">
     <h3>Why Visit:</h3>
     <p>Kenya is known for its incredible wildlife, rich cultural heritage, and stunning landscapes, making it a paradise for nature lovers and adventure enthusiasts.</p>
     <h3>Place to Visit:</h3>
@@ -92,10 +94,12 @@
             <td>Varies; generally warm, with rainy seasons</td>
         </tr>
     </table>
+    <button onclick="addlike3()">LIKE</button>
+<p id="KElikes">0 LIKES</p>
    </section> 
    <section class="section">
     <h2>Tanzania</h2>
-    <img src="C:\Users\Solicode\Downloads\tanzania-zanzibar_4x3.avif" alt="Tanzania picture" width="400px">
+    <img src="C:\Users\Solicode\omar\countries to visit\images\tanzania-zanzibar_4x3.avif" alt="Tanzania picture" width="400px">
     <h3>Why Visit:</h3>
     <p> Tanzania is home to some of Africa's most famous national parks, beautiful beaches, and rich cultural experiences.</p>
     <h3>Place to Visit:</h3>
@@ -119,10 +123,12 @@
             <td>Tropical climate; varies by region, generally warm</td>
         </tr>
     </table>
+    <button onclick="addlike4()">LIKE</button>
+<p id="TAlikes">0 LIKES</p>
    </section> 
-   <section >
+   <section class="section">
     <h2>Egypt</h2>
-    <img src="C:\Users\Solicode\Downloads\giza-pyramids-cairo-egypt-with-palm.webp" alt="kenya picture" width="400px">
+    <img src="C:\Users\Solicode\omar\countries to visit\images\giza-pyramids-cairo-egypt-with-palm.webp" alt="kenya picture" width="400px">
     <h3>Why Visit:</h3>
     <p>Egypt offers an unparalleled journey through ancient history, with iconic monuments and a rich cultural heritage.</p>
     <h3>Place to Visit:</h3>
@@ -145,16 +151,41 @@
             <td>Hot desert climate; hot summers and mild winters</td>
         </tr>
     </table>
+    <button onclick="addlike5()">LIKE</button>
+<p id="EGlikes">0 LIKES</p>
    </section> 
 <script>
 
-function addlike() {
+function addlike1() {
     let likesElement = document.getElementById("SAlikes");
     let likesNumber = Number(likesElement.innerText.split(' ')[0]) || 0;
     likesNumber++;
     likesElement.innerText = `${likesNumber} likes`;
 }
-
+function addlike2() {
+    let likesElement = document.getElementById("MAlikes");
+    let likesNumber = Number(likesElement.innerText.split(' ')[0]) || 0;
+    likesNumber++;
+    likesElement.innerText = `${likesNumber} likes`;
+}
+function addlike3() {
+    let likesElement = document.getElementById("KElikes");
+    let likesNumber = Number(likesElement.innerText.split(' ')[0]) || 0;
+    likesNumber++;
+    likesElement.innerText = `${likesNumber} likes`;
+}
+function addlike4() {
+    let likesElement = document.getElementById("TAlikes");
+    let likesNumber = Number(likesElement.innerText.split(' ')[0]) || 0;
+    likesNumber++;
+    likesElement.innerText = `${likesNumber} likes`;
+}
+function addlike5() {
+    let likesElement = document.getElementById("EGlikes");
+    let likesNumber = Number(likesElement.innerText.split(' ')[0]) || 0;
+    likesNumber++;
+    likesElement.innerText = `${likesNumber} likes`;
+}
 
 </script>
 </body>
