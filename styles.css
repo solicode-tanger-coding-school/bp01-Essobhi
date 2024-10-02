@@ -1,0 +1,54 @@
+html{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+button{
+    color:#2c3e50;
+    background-color: #cf7a0b;
+}
+h1{
+    font-size: 2.5em; 
+    color: #2c3e50; 
+    text-align: center; 
+    margin: 20px 0; /* Space above and below the heading */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    padding: 10px; /* Space inside the border */
+    border: 2px solid #df760d; /* Border color and thickness */
+    border-radius: 8px; /* Round corners */
+    background-color: #cf7a0b; /* Optional: add a background color */
+}
+.section {
+    border: 2px solid #cf7a0b; /* Adjust the border thickness and color as needed */
+    margin: 20px; /* Adds space around each section */
+    padding: 15px; /* Adds space inside each section */
+    border-radius: 8px;
+}
+
+h2{
+    font-size: 1.5em; /* Larger font size */
+    color: #2c3e50; /* Dark color for the text */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Space above and below the heading */
+    font-family: 'Arial', sans-serif; /* Font family */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+    padding: 3px; /* Space inside the border */
+    border: 2px solid #df760d; /* Border color and thickness */
+    border-radius: 8px; /* Round corners */
+    background-color: #cf7a0b; /* Optional: add a background color */
+}
+h3{
+    color: #ab6407;
+    text-decoration: underline;
+}
+table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 80%; 
+    border-color: #ab6407;
+}
+
+
+
